@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A personal field notebook for technology, security, and programming." />
+    <title>YFN — Field Notes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a href="#about" class="home-button" aria-label="Back to top">
+          <img src="Profile picture.svg" alt="" />
+        </a>
+        <nav aria-label="Primary navigation">
+          <a href="#about">Who am I</a>
+          <a class="active" href="#notes">BLOG</a>
+        </nav>
+        <span class="issue">Last Updated<i></i>2026 july</span>
+      </header>
+
+      <main>
+        <section class="about-section" id="about" aria-labelledby="about-title">
+          <div class="about-card">
+            <div class="portrait">
+              <img src="Profile picture.svg" alt="Portrait of Your Name" />
+              <span class="portrait-index">[ 001 ]</span>
+            </div>
+            <div class="about-copy">
+              <p class="eyebrow">01 / Who am I<span> /// </span><span>Israels strongest goy</span></p>
+              <h2 id="about-title">Hello, I’m<br /><span>Nyanchalant</span></h2>
+              <p>I’m a curious builder with a soft spot for well-made tools and resilient systems. This is where I document what I’m learning as I work across the web, security, and software.</p>
+              <p>Expect practical notes, small experiments, and occasional rabbit holes.</p>
+              <div class="socials">
+                <a href="https://github.com" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+                <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+                <a href="mailto:hello@example.com">Email <span>↗</span></a>
+              </div>
+            </div>
+            <section class="music-player" aria-label="Music player">
+              <div class="album-art">
+                <img class="album-cover" alt="Album cover" />
+              </div>
+              <div class="track-details">
+                <p class="eyebrow">NOW PLAYING <span>///</span> ON REPEAT</p>
+                <h3 class="track-title"></h3>
+                <div class="player-controls">
+                  <button class="play-button" type="button" aria-label="Play track" aria-pressed="false">▶</button>
+                  <div class="progress-wrap">
+                    <input class="progress-bar" type="range" min="0" max="100" value="0" aria-label="Track progress" />
+                    <div class="time-row"><span class="current-time">0:00</span><span class="duration">0:00</span></div>
+                  </div>
+                </div>
+              </div>
+              <audio class="audio-track" preload="metadata"></audio>
+            </section>
+          </div>
+        </section>
+
+        <section class="notes-section" id="notes" aria-labelledby="notes-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">02 / THE BLOG</p>
+              <h2 id="notes-title">Latest notes</h2>
+            </div>
+            <p class="note-count" id="note-count">Loading notes...</p>
+          </div>
+          <div class="genre-tabs" id="genre-tabs" aria-label="Filter posts by genre"></div>
+          <div class="post-grid" id="post-grid" aria-live="polite"></div>
+        </section>
+      </main>
+
+      <footer><span>Did I ragebait you?</span><span>Yell at me on shitassemail@email.com</span></footer>
+    </div>
+    <template id="post-template">
+      <article class="post-card">
+        <div class="post-topline"><span class="post-genre"></span><span class="post-index"></span></div>
+        <p class="post-date"></p>
+        <h3></h3>
+        <p class="post-excerpt"></p>
+        <button class="read-post" type="button">Open note <span>→</span></button>
+      </article>
+    </template>
+    <dialog class="post-dialog" id="post-dialog">
+      <button class="dialog-close" type="button" aria-label="Close note">×</button>
+      <p class="eyebrow dialog-genre"></p>
+      <h2></h2><p class="dialog-date"></p><div class="dialog-content"></div>
+    </dialog>
+    <script src="index.js"></script>
+  </body>
+</html>

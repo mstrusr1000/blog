@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "id": "001",
+      "genre": "Security",
+      "date": "MAY 14, 2024",
+      "title": "The useful habit of thinking in attack paths",
+      "excerpt": "A simple reframing for finding the gaps between a secure-looking system and a resilient one.",
+      "content": ["Security gets easier to reason about when you stop looking for a single dramatic flaw. Instead, trace the small steps an attacker would need to take: what can they see, change, and connect?", "This way of thinking turns a vague concern into a path you can interrupt. One good control at the right point can make a chain of ordinary weaknesses much less useful."]
+    },
+    {
+      "id": "002",
+      "genre": "Programming",
+      "date": "APR 28, 2024",
+      "title": "Notes from rebuilding a small tool",
+      "excerpt": "The second version is not about more features. It is about respecting the shape of the problem.",
+      "content": ["I rebuilt a small personal tool from scratch this week. The first version worked, but it had quietly accumulated assumptions that were no longer true.", "Starting over was useful because it forced every decision back into the open. The result is smaller, more legible, and easier to change."]
+    },
+    {
+      "id": "003",
+      "genre": "Technology",
+      "date": "APR 11, 2024",
+      "title": "What makes a tool feel calm?",
+      "excerpt": "A few observations on software that lets you think instead of asking to be managed.",
+      "content": ["The best tools make their capabilities discoverable without making every possibility visible at once. They leave room for concentration.", "Calm software has a point of view. It knows which decisions deserve attention and which ones should stay out of the way."]
+    },
+    {
+      "id": "004",
+      "genre": "Security",
+      "date": "MAR 22, 2024",
+      "title": "Passwords are a design problem",
+      "excerpt": "People do sensible things with inconvenient systems. Good security begins by noticing that.",
+      "content": ["When a security measure fights the way people actually work, people will invent a workaround. The workaround is rarely a character flaw; it is feedback about the design.", "The practical question is not whether users followed a policy. It is whether the policy made the safe path the easy path."]
+    },
+    {
+      "id": "005",
+      "genre": "Programming",
+      "date": "MAR 06, 2024",
+      "title": "Leave a trail for future you",
+      "excerpt": "Small commit messages, clear names, and the quiet generosity of explaining one strange decision.",
+      "content": ["Future you is the most frequent collaborator on any project. A little context written down today can save a long excavation later.", "The goal is not documentation for its own sake. It is reducing the time between a question and a trustworthy answer."]
+    },
+    {
+      "id": "006",
+      "genre": "Technology",
+      "date": "FEB 18, 2024",
+      "title": "The case for keeping a local notebook",
+      "excerpt": "Not every thought needs an audience. Some ideas improve when they have a place to sit awhile.",
+      "content": ["A local notebook is an antidote to the pressure to publish before an idea is finished. It is a private workbench: useful, imperfect, and entirely yours.", "Over time, those fragments become a record of how your thinking changed—and a surprisingly good index of what you care about."]
+    }
+  ]
+}

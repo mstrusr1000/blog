@@ -44,7 +44,11 @@ function renderTabs() {
 
 fetch('blogs.json')
   .then(response => { if (!response.ok) throw new Error('Could not load notes'); return response.json(); })
-  .then(data => { posts = data.posts; renderTabs(); renderPosts(); })
+  .then(data => {
+    posts = data.posts.sort((a, b) => new Date(b.date) - new Date(a.date));
+    renderTabs();
+    renderPosts();
+  })
   .catch(() => { count.textContent = 'Unable to load notes. Run with a local server.'; });
 
 dialog.querySelector('.dialog-close').addEventListener('click', () => dialog.close());

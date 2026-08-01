@@ -4,17 +4,17 @@
       "id": "001",
       "genre": "Security",
       "date": "july 22, 2026",
-      "title": "Please Use a Password Manager",
+      "title": "Why use a Password Manager",
       "excerpt": "Repeating passwords across websites for your email login is one of the easiest ways to let a fraudist cause you trouble",
       "content": ["One of the most effortless ways to hack into a targets account is by counting on password re-use. Every year many popular websites like zomato,linkedin,dominoes are hacked and the exploit database is dumped publicly . Often these include compromising information such as geolocation at best and government IDs at worst . Why is this so bad? Because it unlocks the room for fraudists to log into your unrelated accounts such as say crypto exchange,gmail,socials etc by re-using the dumped password and hoping you re-use it everywhere.The way it can get real bad is by social engineering techniques notably sim swapping wherein the attacker hijacks your phone number and sim through talking nicely with the customer service representative . These techniques are elevated by seemingly non usefull information such as geolocation helping with deciding on proxies and mule networks and government IDs with sim swapping. If this sounds worrying you can lookup your or some important persons email on websites like haveibeenpwned.com you will be surprised by how many are a positive. This is mostly a problem with websites who dont hash or use obsolete hashing algos like md5."]
     },
     {
       "id": "002",
-      "genre": "",
-      "date": "",
-      "title": "",
-      "excerpt": "",
-      "content": [""]
+      "genre": "Trading",
+      "date": "aug 01, 2026",
+      "title": "ETH sucks",
+      "excerpt": "If you are in ETH for the cash gains , You are a cocksucker , Go buy stocks or your kids will starve",
+      "content": ["ETH is a virtual monopoly for onchain defi especially with SOL being reduced to degens,scammers and dying nodes \nBut it sucks as an investment simply because it has too little to gain everything to lose."]
     }
   ]
 }

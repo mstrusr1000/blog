@@ -12,12 +12,16 @@
 html {
   font-size:120%;
   scroll-behavior:smooth;
+  scrollbar-gutter:stable;
 }
 body {
   margin:0;
   color:var(--ink);
   background:var(--paper);
   font-family:"DM Sans",sans-serif;
+}
+body:has(.post-dialog[open]) {
+  overflow:hidden;
 }
 a {
   color:inherit;
@@ -301,6 +305,9 @@ footer {
 }
 .post-dialog {
   width:min(650px,calc(100% - 30px));
+  max-height:calc(100dvh - 30px);
+  overflow-y:auto;
+  overscroll-behavior:contain;
   padding:45px;
   color:var(--ink);
   border:var(--line);
@@ -325,6 +332,10 @@ footer {
   color:#48464c;
   border-top:var(--line);
   line-height:1.6;
+}
+.dialog-content p {
+  white-space:pre-wrap;
+  tab-size:4;
 }
 .dialog-close {
   position:absolute;

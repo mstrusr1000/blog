@@ -10,7 +10,13 @@ function openPost(post) {
   dialog.querySelector('.dialog-genre').textContent = `${post.genre.toUpperCase()} / NOTE ${post.id}`;
   dialog.querySelector('h2').textContent = post.title;
   dialog.querySelector('.dialog-date').textContent = post.date;
-  dialog.querySelector('.dialog-content').innerHTML = post.content.map(paragraph => `<p>${paragraph}</p>`).join('');
+  const content = document.createDocumentFragment();
+  post.content.forEach(paragraph => {
+    const element = document.createElement('p');
+    element.textContent = paragraph;
+    content.append(element);
+  });
+  dialog.querySelector('.dialog-content').replaceChildren(content);
   dialog.showModal();
 }
 

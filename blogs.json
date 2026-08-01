@@ -2,19 +2,20 @@
   "posts": [
     {
       "id": "001",
-      "genre": "Security",
-      "date": "july 22, 2026",
-      "title": "Why use a Password Manager",
-      "excerpt": "Repeating passwords across websites for your email login is one of the easiest ways to let a fraudist cause you trouble",
-      "content": ["One of the most effortless ways to hack into a targets account is by counting on password re-use. Every year many popular websites like zomato,linkedin,dominoes are hacked and the exploit database is dumped publicly . Often these include compromising information such as geolocation at best and government IDs at worst . Why is this so bad? Because it unlocks the room for fraudists to log into your unrelated accounts such as say crypto exchange,gmail,socials etc by re-using the dumped password and hoping you re-use it everywhere.The way it can get real bad is by social engineering techniques notably sim swapping wherein the attacker hijacks your phone number and sim through talking nicely with the customer service representative . These techniques are elevated by seemingly non usefull information such as geolocation helping with deciding on proxies and mule networks and government IDs with sim swapping. If this sounds worrying you can lookup your or some important persons email on websites like haveibeenpwned.com you will be surprised by how many are a positive. This is mostly a problem with websites who dont hash or use obsolete hashing algos like md5."]
+      "genre": "Trading",
+      "date": "august 01, 2026",
+      "title": "ETH sucks",
+      "excerpt": "If you hold ETH for cash gains , You are COCKSUCKER whose children will starve",
+      "content": ["ETH is a virtual monopoly for onchain defi with the only competition being reduced to degens,scammers and dying node count. \nEstablished monopolies are always a bad investment , any buisness can grow 2 ways either the market expands or their market share expands , for monopolies the latter means they have everything to lose none to gain.\nSo the only way for a monopoly to grow is if their market itself grows which in ETHs case is onchain defi , the reason I am bearish on ETH is cause defi has hit its walls\nInnovation is lacking , governments are hostile with CBDCs and AML laws, the normie is simply not interested in anything beyond using stables for gambling and vitalik is a massive faggot\nOnly a retarded imbecile who hates his kids would buy ETH instead of juicy suculent stocks as an investment"]
     },
     {
       "id": "002",
-      "genre": "Trading",
-      "date": "aug 01, 2026",
-      "title": "ETH sucks",
-      "excerpt": "If you are in ETH for the cash gains , You are a cocksucker , Go buy stocks or your kids will starve",
-      "content": ["ETH is a virtual monopoly for onchain defi especially with SOL being reduced to degens,scammers and dying nodes \nBut it sucks as an investment simply because it has too little to gain everything to lose."]
+      "genre": "Technology",
+      "date": "august 01, 2026",
+      "title": "Accessing the internet , anonymous",
+      "excerpt": "There are varying threat models and purchasing power here is a guide to sweet spot for each accessible enough to the everyday man",
+      "content": ["Level 1:Everyday piracy and censorship evasion\nA VPN is enough , free if you are a brokie but i recommend atleast anything paid , mullvad is famous you can try that they accept crypto for payments so there is no indirect banking linked KYC or if using banking choose a hostile jurisdiction like hong kong for west.\nLevel 2:Junkie or drug dealer\nTor on Tails is all you really need maybe use obfs4 for extra good measure but really thats it your opsec will betray you before tor.\nLevel 3:Naughty niggas\nTOR to VPS is the gold standard .Some things to keep in mind Host the guard node yourself,skip EU relays especially german,Choose a hostile jurisdiction for VPS(Very important to avoid ISP packet analysis).\nLevel 4:Great firewall\nTry the above three levels first .Then attempt residential proxy relays they are expensive but if nothing else works they are your last hope should work for months before the AI flags you and its grey enough to not warrant prosecution by itself"]
     }
+
   ]
 }

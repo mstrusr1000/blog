@@ -15,6 +15,14 @@
       "title": "Accessing the internet , anonymous",
       "excerpt": "There are varying threat models and purchasing power here is a guide to sweet spot for each accessible enough to the everyday man",
       "content": ["Level 1:Everyday piracy and censorship evasion\nA VPN is enough , free if you are a brokie but i recommend atleast anything paid , mullvad is famous you can try that they accept crypto for payments so there is no indirect banking linked KYC or if using banking choose a hostile jurisdiction like hong kong for west.\nLevel 2:Junkie or drug dealer\nTor on Tails is all you really need maybe use obfs4 for extra good measure but really thats it your opsec will betray you before tor.\nLevel 3:Naughty niggas\nTOR to VPS is the gold standard .Some things to keep in mind Host the guard node yourself,skip EU relays especially german,Choose a hostile jurisdiction for VPS(Very important to avoid ISP packet analysis).\nLevel 4:Great firewall\nTry the above three levels first .Then attempt residential proxy relays they are expensive but if nothing else works they are your last hope should work for months before the AI flags you and its grey enough to not warrant prosecution by itself"]
+    },
+    {
+      "id": "003",
+      "genre": "Philosophy-politics",
+      "date": "august 03, 2026",
+      "title": "The millenia of democratization and its end",
+      "excerpt": "The millenia 1000 and beyond was defined by rapid increase of accessibility to the defining powers to the masses and it is coming to an end",
+      "content": ["The source of power has always boiled down to 4 fundamental things information,currency,violence and justice\nFor much of history these were concentrated or rather restricted to the hands of few organized men but the rapid advancements of technology contributing to their democratization gave birth to a new era\nThe guttenburg press to the internet broke monoplies on god and wisdom the primary source of legitamacy for the rulling class\nGunpowder to modern drone warfare broke the genetic dominance on violence , a sub 5 recluse midget could now fell a 6'7 adam with a rifle\nPaper notes to cryptocurrency meant the states approval for commerce can now be circumvented through mobility and mathematical trusts\nThe former 3 compounded into franchising the masses to justice , from 1776 USA to the modern liberal democracies , it is an ironic greek mythos like end to the era , the dasyu masses when given power corrupt and bring decay to civillization which humanity is experiencing today\nThe era is ending with AI spearheading the change , power will again concentrate to those who will it"]
     }
 
   ]

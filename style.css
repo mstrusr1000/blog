@@ -307,12 +307,16 @@ footer {
   width:min(650px,calc(100% - 30px));
   max-height:calc(100dvh - 30px);
   overflow-y:auto;
+  scrollbar-width:none;
   overscroll-behavior:contain;
   padding:45px;
   color:var(--ink);
   border:var(--line);
   background:var(--paper);
   box-shadow:9px 9px 0 var(--purple-deep);
+}
+.post-dialog::-webkit-scrollbar {
+  display:none;
 }
 .post-dialog::backdrop {
   background:rgba(20,20,24,.56);

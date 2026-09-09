@@ -9,6 +9,10 @@
 * {
   box-sizing:border-box;
 }
+::selection {
+  background:var(--ink);
+  color:var(--paper);
+}
 html {
   font-size:120%;
   scroll-behavior:smooth;
@@ -76,12 +80,13 @@ h1,h2,h3 {
 .about-copy h2 {
   margin:0 0 28px;
   font-size:clamp(2.5rem,4vw,4.3rem);
-  line-height:1;
+  line-height:1.12;
+  text-wrap:balance;
 }
 .about-copy h2 span {
-  display:inline-block;
-  margin-top:.14em;
-  padding:.06em .12em;
+  display:block;
+  margin-top:.08em;
+  line-height:1.05;
   color:var(--ink);
   background:transparent;
 }
@@ -139,7 +144,7 @@ h1,h2,h3 {
 .section-heading h2 {
   margin:0;
   font-size:clamp(2.5rem,4vw,4.3rem);
-  line-height:.9;
+  line-height:1.05;
 }
 .note-count {
   margin:0;
@@ -187,7 +192,7 @@ h1,h2,h3 {
 .post-card h3 {
   margin:0;
   font-size:1.52rem;
-  line-height:1.02;
+  line-height:1.15;
 }
 .post-excerpt {
   margin:12px 0;
@@ -234,7 +239,7 @@ h1,h2,h3 {
 .post-dialog h2 {
   margin:0 0 10px;
   font-size:2.6rem;
-  line-height:.95;
+  line-height:1.05;
 }
 .dialog-content {
   padding-top:20px;

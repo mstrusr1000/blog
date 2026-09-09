@@ -70,7 +70,7 @@ const trackTitle = document.querySelector('.track-title');
 const albumCover = document.querySelector('.album-cover');
 const audioSource = 'maskedball.m4a';
 const metadataSource = 'maskedball.m4a';
-const fallbackCover = 'Profile picture.svg';
+const fallbackCover = 'pfp.svg';
 audio.src = audioSource;
 albumCover.src = fallbackCover;
 

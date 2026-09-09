@@ -7,9 +7,7 @@ let posts = [];
 let activeGenre = 'All';
 
 function openPost(post) {
-  dialog.querySelector('.dialog-genre').textContent = `${post.genre.toUpperCase()} / NOTE ${post.id}`;
   dialog.querySelector('h2').textContent = post.title;
-  dialog.querySelector('.dialog-date').textContent = post.date;
   const content = document.createDocumentFragment();
   post.content.forEach(paragraph => {
     const element = document.createElement('p');
@@ -23,11 +21,8 @@ function openPost(post) {
 function renderPosts() {
   const filtered = activeGenre === 'All' ? posts : posts.filter(post => post.genre === activeGenre);
   postGrid.innerHTML = '';
-  filtered.forEach((post, index) => {
+  filtered.forEach((post) => {
     const card = template.content.cloneNode(true);
-    card.querySelector('.post-genre').textContent = post.genre;
-    card.querySelector('.post-index').textContent = String(index + 1).padStart(2, '0');
-    card.querySelector('.post-date').textContent = post.date;
     card.querySelector('h3').textContent = post.title;
     card.querySelector('.post-excerpt').textContent = post.excerpt;
     card.querySelector('.read-post').addEventListener('click', () => openPost(post));
@@ -117,9 +112,7 @@ async function loadEmbeddedMetadata() {
       albumCover.src = coverUrl;
       albumCover.alt = `Cover art for ${metadata.common.title || 'the current track'}`;
     }
-  } catch {
-    // The HTML title and extracted image stay available as fallbacks.
-  }
+  } catch {}
 }
 
 loadEmbeddedMetadata();

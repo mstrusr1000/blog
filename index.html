@@ -17,10 +17,8 @@
           <div class="about-card">
             <div class="portrait">
               <img src="pfp.svg" alt="Portrait of Nyanchalant" loading="eager" fetchpriority="high" />
-              <span class="portrait-index">[ 001 ]</span>
             </div>
             <div class="about-copy">
-              <p class="eyebrow">01 / Who am I<span> /// </span><span>Israels strongest goy</span></p>
               <h2 id="about-title">Hello, I’m<br /><span>Nyanchalant</span></h2>
               <p>You likely met me through crypto,trading or anime . Apart from them I also enjoy movies,gaming and chess .</p>
               <p>Here I share my ball knowledge on anything I feel like .</p>
@@ -36,7 +34,6 @@
                 <img class="album-cover" alt="Album cover" />
               </div>
               <div class="track-details">
-                <p class="eyebrow">NOW PLAYING <span>///</span> ON REPEAT</p>
                 <h3 class="track-title"></h3>
                 <div class="player-controls">
                   <button class="play-button" type="button" aria-label="Play track" aria-pressed="false">▶</button>
@@ -54,7 +51,6 @@
         <section class="notes-section" id="notes" aria-labelledby="notes-title">
           <div class="section-heading">
             <div>
-              <p class="eyebrow">02 / THE BLOG</p>
               <h2 id="notes-title">Latest notes</h2>
             </div>
             <p class="note-count" id="note-count">Loading notes...</p>
@@ -68,8 +64,6 @@
     </div>
     <template id="post-template">
       <article class="post-card">
-        <div class="post-topline"><span class="post-genre"></span><span class="post-index"></span></div>
-        <p class="post-date"></p>
         <h3></h3>
         <p class="post-excerpt"></p>
         <button class="read-post" type="button">Open note <span>→</span></button>
@@ -77,8 +71,7 @@
     </template>
     <dialog class="post-dialog" id="post-dialog">
       <button class="dialog-close" type="button" aria-label="Close note">×</button>
-      <p class="eyebrow dialog-genre"></p>
-      <h2></h2><p class="dialog-date"></p><div class="dialog-content"></div>
+      <h2></h2><div class="dialog-content"></div>
     </dialog>
     <script src="index.js"></script>
   </body>

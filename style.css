@@ -40,9 +40,11 @@ button,a {
 footer {
   display:flex;
   align-items:center;
-  min-height:90px;
+  justify-content:space-between;
+  min-height:64px;
   padding:0 4.2vw;
-  border-bottom:var(--line);
+  font:500 .61rem "DM Mono",monospace;
+  letter-spacing:.04em;
 }
 .about-card {
   display:grid;
@@ -53,7 +55,6 @@ footer {
   background:var(--soft);
 }
 .portrait {
-  position:relative;
   height:334px;
   overflow:hidden;
   border:var(--line);
@@ -68,28 +69,12 @@ footer {
   object-position:center top;
   background:#fff;
 }
-.portrait-index {
-  position:absolute;
-  right:12px;
-  bottom:12px;
-  padding:2px 4px;
-  background:#fff;
-  font:500 .62rem "DM Mono",monospace;
-}
-.eyebrow {
-  margin:0;
-  font:500 .68rem "DM Mono",monospace;
-  letter-spacing:.04em;
-}
-/*.eyebrow span {
-  color:var(--purple-deep);
-}*/
 h1,h2,h3 {
   font-family:"Space Grotesk",sans-serif;
   letter-spacing:-.07em;
 }
 .about-copy h2 {
-  margin:11px 0 28px;
+  margin:0 0 28px;
   font-size:clamp(2.5rem,4vw,4.3rem);
   line-height:1;
 }
@@ -100,7 +85,7 @@ h1,h2,h3 {
   color:var(--ink);
   background:transparent;
 }
-.about-copy > p:not(.eyebrow) {
+.about-copy > p {
   color:#47454b;
   font-size:.96rem;
   line-height:1.55;
@@ -116,10 +101,6 @@ h1,h2,h3 {
   border-bottom:var(--line);
   font:500 .7rem "DM Mono",monospace;
   text-transform:uppercase;
-}
-.socials a span {
-  margin-left:8px;
-  color:var(--purple-deep);
 }
 .music-player {
   display:grid;
@@ -140,7 +121,7 @@ h1,h2,h3 {
   background:var(--purple);
 }
 .album-art img { width:100%; height:100%; object-fit:cover; }
-.track-details h3 { margin:7px 0 13px; font-size:1.15rem; line-height:1; }
+.track-details h3 { margin:0 0 13px; font-size:1.15rem; line-height:1; }
 .player-controls { display:flex; align-items:center; gap:11px; }
 .play-button { display:grid; flex:0 0 32px; width:32px; height:32px; padding:0 0 0 2px; cursor:pointer; place-items:center; color:var(--paper); border:var(--line); background:var(--ink); font-size:.75rem; }
 .progress-wrap { flex:1; min-width:0; }.progress-bar { width:100%; height:5px; margin:0; cursor:pointer; accent-color:var(--purple-deep); }.time-row { display:flex; justify-content:space-between; margin-top:3px; font:500 .54rem "DM Mono",monospace; color:#59565e; }
@@ -156,7 +137,7 @@ h1,h2,h3 {
   border-bottom:var(--line);
 }
 .section-heading h2 {
-  margin:11px 0 0;
+  margin:0;
   font-size:clamp(2.5rem,4vw,4.3rem);
   line-height:.9;
 }
@@ -203,24 +184,6 @@ h1,h2,h3 {
   transform:translate(-4px,-4px);
   box-shadow:4px 4px 0 var(--ink);
 }
-.post-topline {
-  display:flex;
-  justify-content:space-between;
-  font:500 .65rem "DM Mono",monospace;
-  text-transform:uppercase;
-}
-.post-genre {
-  padding:4px 6px;
-  background:var(--purple);
-}
-.post-card:hover .post-genre {
-  background:#fff;
-}
-.post-date {
-  margin:27px 0 9px;
-  color:#5d5b60;
-  font:.67rem "DM Mono",monospace;
-}
 .post-card h3 {
   margin:0;
   font-size:1.52rem;
@@ -250,13 +213,6 @@ h1,h2,h3 {
 .read-post:hover span {
   margin-left:25px;
 }
-footer {
-  justify-content:space-between;
-  min-height:64px;
-  border-bottom:0;
-  font:500 .61rem "DM Mono",monospace;
-  letter-spacing:.04em;
-}
 .post-dialog {
   width:min(650px,calc(100% - 30px));
   max-height:calc(100dvh - 30px);
@@ -276,14 +232,9 @@ footer {
   background:rgba(20,20,24,.56);
 }
 .post-dialog h2 {
-  margin:14px 0 10px;
+  margin:0 0 10px;
   font-size:2.6rem;
   line-height:.95;
-}
-.dialog-date {
-  margin:0 0 25px;
-  color:#555;
-  font:.7rem "DM Mono",monospace;
 }
 .dialog-content {
   padding-top:20px;
